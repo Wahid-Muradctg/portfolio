@@ -1,8 +1,12 @@
 @import "tailwindcss";
+.portfolio-slider .mySwiper{
+    min-width: 780px !important;
+}
+.portfolio-slider .swiper-slide-active img{
+    height: 550px !important;
+    
 
-/* .swiper-slide-active img{
-    height: 500px !important;
+}
 
-} */
 
 

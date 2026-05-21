@@ -31,9 +31,9 @@ const Portfolio = () => {
                         </button>
                     </div>
                 </div>
-                <div className="w-full md:w-[62%] ">
+                <div className="w-full md:w-[62%] portfolio-slider ">
                     <Swiper
-                        slidesPerView={3}
+                        slidesPerView={2.5}
                         spaceBetween={30}
                         loop={true}
                         pagination={{
