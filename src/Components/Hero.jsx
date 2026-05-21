@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="relative max-w-[1200px] mx-auto px-4 py-12 md:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-0">
       
       <div className="w-full md:w-1/2 z-10 text-left">
-        <span className="inline-block border border-[#00b55a] text-[#00b55a] px-4 py-1 rounded-full text-sm font-medium">
+        <span className="inline-block border border-[#00b55a] text-[#00b55a] p-2 rounded-[50%] text-sm font-medium">
           Welcome
         </span>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mt-6 leading-tight">
@@ -33,18 +33,18 @@ const Hero = () => {
       </div>
 
       {/* Image Area */}
-      <div className="w-full md:w-1/2 flex justify-center">
-        <div className="w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px]">            
+      <div className="w-full md:w-1/2 flex justify-center md:mt-[-50px]">
+        <div className="w-[380px] h-[380px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px]">            
             <img 
                 src="/images/hero.png" 
                 alt="Tanvir" 
-                className="w-full h-full object-contain"
+                className="w-[100%] h-auto object-contain"
             />
         </div>
       </div>
 
       {/* Social Links - Repositioned for Responsive */}
-      <div className="md:absolute md:right-[-20px] md:top-1/2 md:-translate-y-1/2 flex md:flex-col items-center gap-4 md:gap-6 mt-10 md:mt-0">
+      <div className="md:absolute md:right-[-60px] md:top-1/2 md:-translate-y-1/2 flex md:flex-col items-center gap-4 md:gap-6 mt-10 md:mt-0">
         <span className="md:rotate-90 md:mb-10 text-[#00b55a] text-xs sm:text-sm tracking-widest uppercase">Follow me on:</span>
         <div className="hidden md:block w-[2px] h-10 bg-[#00b55a]"></div>
         <div className="flex md:flex-col gap-4">
