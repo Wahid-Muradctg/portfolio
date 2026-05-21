@@ -38,7 +38,7 @@ const ContactInfo = () => {
             <div className="w-full flex flex-col md:flex-row gap-6 mt-10">
                 <div className='md:w-[38%]'>
                     {contactDetails.map((detail,index)=>(
-                        <div key={index} className="flex flex-row gap-8 mb-15  p-4 items-center rounded-lg bg-[#fffdfd]">
+                        <div key={index} className="flex flex-row gap-8 mb-6 p-4 items-center rounded-lg bg-[#fffdfd]">
                             <div className="text-xl text-white bg-[#00b55a] p-4 rounded-lg">
                                 {detail.icon}
                             </div>

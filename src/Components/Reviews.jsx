@@ -58,7 +58,11 @@ const Reviews = () => {
                     }}
                     navigation={true}
                     modules={[Pagination, Navigation]}
-                    className="mySwiper w-[110%] ">
+                    className="mySwiper w-full"
+                    breakpoints={{
+                        320: { slidesPerView: 1.1, spaceBetween: 16 },
+                        640: { slidesPerView: 2, spaceBetween: 20 },
+                    }}>
                         {reviews.map(review => (
                             <SwiperSlide key={review.id} className='w-[600px]' >
                                 <div className="bg-white p-6 rounded-lg bg-[#fffdfd] w-full h-full">

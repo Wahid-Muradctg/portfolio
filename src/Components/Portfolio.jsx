@@ -42,10 +42,14 @@ const Portfolio = () => {
                         navigation={true}
                         modules={[Pagination, Navigation]}
                         className="mySwiper"
+                        breakpoints={{
+                            320: { slidesPerView: 1.2, spaceBetween: 16 },
+                            640: { slidesPerView: 2, spaceBetween: 20 },
+                        }}
                     >
-                        <SwiperSlide><img src='/public/images/slide1.png' /></SwiperSlide>
-                        <SwiperSlide><img src='/public/images/slide2.png' /></SwiperSlide>
-                        <SwiperSlide><img src='/public/images/slide3.png' /></SwiperSlide>
+                        <SwiperSlide><img src='/public/images/slide1.png' className="w-full h-auto" /></SwiperSlide>
+                        <SwiperSlide><img src='/public/images/slide2.png' className="w-full h-auto" /></SwiperSlide>
+                        <SwiperSlide><img src='/public/images/slide3.png' className="w-full h-auto" /></SwiperSlide>
                         
                     </Swiper>
 

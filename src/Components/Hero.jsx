@@ -34,11 +34,11 @@ const Hero = () => {
 
       {/* Image Area */}
       <div className="w-full md:w-1/2 flex justify-center md:mt-[-50px]">
-        <div className="w-[380px] h-[380px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px]">            
+        <div className="w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[400px] md:h-[400px]">            
             <img 
                 src="/images/hero.png" 
                 alt="Tanvir" 
-                className="w-[100%] h-auto object-contain"
+                className="w-full h-full object-contain"
             />
         </div>
       </div>

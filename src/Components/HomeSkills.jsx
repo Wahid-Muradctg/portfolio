@@ -42,7 +42,7 @@ const HomeSkills = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2 ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 ps-[40px]"> 
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:ps-[40px]"> 
           {SkillCintent.map((item, index) => (
             <div key={index} className="shadow-[5px_0_100px_0_rgba(247, 247, 247, 0.5)] px-3 py-8">
               <div className=" text-[#00b55a] text-3xl mb-4">
